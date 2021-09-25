@@ -1,6 +1,6 @@
 all:
-	javac Server.javac
-	javac Client.javac
+	javac Server.java
+	javac Client.java
 
 clean:
 	rm *.class

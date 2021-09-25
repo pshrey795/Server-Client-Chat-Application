@@ -1,0 +1,17 @@
+Shrey J. Patel, 2019CS10400
+
+Server-Client Chat Application using Sockets and Threading:
+
+The contents of the submission are:
+1) Document folder(doc):
+    -Brief overview of design decisions and error handling
+2) Source Code(src):
+    -Client.java: Java source code for client side application
+    -Server.java: Java source code for server side application
+    -Makefile: To build the source code
+
+How to execute the code?
+1) Type `make all` in the console to build all the necessary files.
+2) Always run the server first, by typing `java Server <arguments>` in the console. The server program optionally accepts port number to be assigned to the server socket(default is 1234) as argument.
+3) To run the client, type `java Client <arguments>` in the console. The client takes in three mandatory arguments, the username of the client, the IP address and the port number of the server to which the client needs to be connected.
+4) After the usage of the application, the built files can be removed using `make clean`.
